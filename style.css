@@ -217,6 +217,16 @@ font-weight: 700;
         /* flex-wrap:wrap; */
         flex-direction: column-reverse;
     }
+    .collection-description{
+        width: 200px;
+        /* font-size: 5px; */
+        /* width: 50%; */
+
+
+    }
+    .card{
+        margin: 0 auto;
+    }
     .main-camera{
         width: 50%;
     }
