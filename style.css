@@ -1,0 +1,145 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Roboto+Slab&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{  font-family: 'Dancing Script', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 70px 120px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+}
+ul>li{
+    margin-right: 30px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 1rem;
+}
+div i{
+    margin-right: 30px;
+}
+.header-title{
+    color: #3A3A3A;
+    font-weight: 700;
+}
+.banner-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding-top: 5%;
+}
+.banner-title{
+color: #3A3A3A;
+font-size: 3.4rem;
+font-weight: 700;
+
+}
+.banner-description{
+color: #3A3A3A;
+font-size: 1rem;
+font-weight: 600;
+width: 505px;
+margin: 16px 0px;
+line-height: 1.5rem;
+
+}
+.btn-primary{
+    border-radius: 41px;
+    background: #E02C6D; 
+    padding: 10px 16px;
+    font-size: 1rem;
+    color: #FFF;
+    font-weight: 700;
+    border: 0;
+}
+.btn-primary i{
+    padding-left: 10px;
+}
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.companies{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.companies img{
+    margin-right: 60px;
+    width: 97.059px;
+    height: 28px;
+}
+.border{
+    width: 80%;
+    background-color:gray;
+    margin: 0 auto;
+}
+@media screen and (max-width:574px){
+    nav
+    {
+        flex-direction: column;
+    }
+    ul li{
+        margin-right: 8px;
+    }
+    ul li a{
+        font-size: 08px;
+        
+    }
+    div i{
+        font-size: 08px;
+    }
+    header {
+        padding: 20px;
+      }
+      
+    .header-title,
+    .banner-title,
+    .banner-description{
+        text-align: center;
+    }
+    .banner-information{
+        flex-direction: column-reverse;
+    }
+    .main-camera{
+        width: 50%;
+    }
+    .banner-title{
+        font-size: 1.6rem;
+    }
+    .banner-description{
+        font-size: 0.8rem;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .btn-primary{
+        padding: 5px;
+        margin-left: 50px;
+    }
+   
+    .companies img{
+        height: 15px;
+        width: 50px;
+
+    }
+}
