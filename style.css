@@ -33,7 +33,7 @@ ul li a{
     font-size: 1rem;
 }
 .header-icons .h-icon{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .header-title{
     color: #3A3A3A;
@@ -186,7 +186,8 @@ font-weight: 700;
         
     }
     ul li{
-        margin-right: 8px;
+        margin-right: 10px;
+       
     }
     ul li a{
         font-size: 10px;
@@ -205,14 +206,12 @@ font-weight: 700;
         text-align: center;
     }
     .banner-information{
-        /* flex-wrap:wrap; */
         flex-direction: column-reverse;
         gap: 10px;
     }
     .collection-description{
         width: 200px;
-        /* font-size: 5px; */
-        /* width: 50%; */
+        
 
 
     }
@@ -247,7 +246,14 @@ font-weight: 700;
         flex-direction: column;
         margin:0px auto;
     }
-    .popular-header {{
+    .popular-header {
         padding: 0px 0px;
+    }
+    .header-icons .h-icon{
+        margin-right: 2px;
+    }
+    .companies img{
+        margin-right: 0px;
+       
     }
 }
